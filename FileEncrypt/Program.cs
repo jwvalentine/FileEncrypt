@@ -41,7 +41,7 @@ namespace FileEncrypt
                 }
             }
 
-        }
+        } // End of Main
 
         static void EncryptFile(string filePath, string key, string iv)
         {
@@ -93,6 +93,6 @@ namespace FileEncrypt
             }
 
 
-        } // End of Main
+        }
     } // End of Class
 }  // End of Namespace
